@@ -131,7 +131,7 @@ base64 = "0.21"
 
 ## 🧑‍💻 Author
 
-**Your Name**
+Ankita Singh
 GitHub: [@Annkkitaaa](https://github.com/Annkkitaaa)
 
 ---
