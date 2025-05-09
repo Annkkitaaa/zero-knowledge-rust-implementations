@@ -9,7 +9,7 @@ pub fn rsa_demo() {
     let private_key = RsaPrivateKey::new(&mut rng, bits).expect("failed to generate key");
     let public_key = RsaPublicKey::from(&private_key);
 
-    let message = b"Top secret!";
+    let message = b"Hi Ankita!";
     let padding = PaddingScheme::new_pkcs1v15_encrypt();
 
     // Encrypt
