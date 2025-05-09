@@ -8,7 +8,7 @@ type Aes128Cbc = Cbc<Aes128, Pkcs7>;
 pub fn aes_demo() {
     let key = b"very secret key.";  // 16 bytes
     let iv = b"unique nonce1234";  // 16 bytes
-    let plaintext = b"Secret message!";
+    let plaintext = b"Secret message for ankita!";
 
     // Encrypt
     let cipher = Aes128Cbc::new_from_slices(key, iv).unwrap();
