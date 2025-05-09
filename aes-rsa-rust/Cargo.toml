@@ -1,0 +1,8 @@
+[dependencies]
+aes = "0.8"
+block-modes = "0.9"
+block-padding = "0.3"
+hex = "0.4"
+rsa = "0.9"
+rand = "0.8"
+base64 = "0.21"
