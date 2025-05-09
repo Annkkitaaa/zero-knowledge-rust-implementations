@@ -132,6 +132,6 @@ base64 = "0.21"
 ## 🧑‍💻 Author
 
 **Your Name**
-GitHub: [@Annkkitaaa](https://github.com/yourusername)
+GitHub: [@Annkkitaaa](https://github.com/Annkkitaaa)
 
 ---
