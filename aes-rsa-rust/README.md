@@ -1,8 +1,4 @@
-Here's a **detailed `README.md`** for your AES & RSA implementation project in Rust:
 
----
-
-```markdown
 # 🔐 AES & RSA Encryption in Rust
 
 This project demonstrates implementations of **AES (Advanced Encryption Standard)** and **RSA (Rivest–Shamir–Adleman)** encryption algorithms in Rust using safe, modern cryptographic crates.
@@ -132,16 +128,6 @@ base64 = "0.21"
 * Encryption: $c = m^e \mod n$
 * Decryption: $m = c^d \mod n$
 
----
-
-## ✨ Future Work
-
-* Add ChaCha20 or AES-GCM for authenticated encryption
-* Implement RSA signatures and verification
-* Load/save keys from PEM files
-* Add CLI support for real-world usage
-
----
 
 ## 🧑‍💻 Author
 
