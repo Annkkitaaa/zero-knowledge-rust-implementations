@@ -7,7 +7,6 @@ Here's a **detailed `README.md`** for your AES & RSA implementation project in R
 
 This project demonstrates implementations of **AES (Advanced Encryption Standard)** and **RSA (Rivest–Shamir–Adleman)** encryption algorithms in Rust using safe, modern cryptographic crates.
 
-> Educational demo to understand symmetric and asymmetric encryption from scratch.
 
 ---
 
@@ -27,7 +26,7 @@ aes-rsa-rust/
 
 ---
 
-## 🧠 What You'll Learn
+##  Content
 
 - How AES-128 works in CBC mode with padding
 - How RSA works with key generation, encryption, and decryption
@@ -36,7 +35,7 @@ aes-rsa-rust/
 
 ---
 
-## 🛠 Setup & Running
+## Setup & Running
 
 ### 1️⃣ Clone the repository
 
@@ -150,14 +149,3 @@ base64 = "0.21"
 GitHub: [@Annkkitaaa](https://github.com/yourusername)
 
 ---
-
-## 📜 License
-
-MIT License. Use freely and responsibly.
-
-```
-
----
-
-Let me know if you'd like the README customized further—for example, if you want to include performance benchmarks, diagrams, or external references.
-```
