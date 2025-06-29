@@ -1,12 +1,12 @@
 
-# 🔐 AES & RSA Encryption in Rust
+# AES & RSA Encryption in Rust
 
 This project demonstrates implementations of **AES (Advanced Encryption Standard)** and **RSA (Rivest–Shamir–Adleman)** encryption algorithms in Rust using safe, modern cryptographic crates.
 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 
@@ -33,14 +33,14 @@ aes-rsa-rust/
 
 ## Setup & Running
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/aes-rsa-rust.git
 cd aes-rsa-rust
 ````
 
-### 2️⃣ Install dependencies
+### Install dependencies
 
 Ensure you have Rust installed:
 [https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
@@ -51,7 +51,7 @@ Then run:
 cargo build
 ```
 
-### 3️⃣ Run the project
+###  Run the project
 
 ```bash
 cargo run
@@ -59,7 +59,7 @@ cargo run
 
 ---
 
-## 🔐 AES Encryption (Symmetric)
+## AES Encryption (Symmetric)
 
 * **Mode**: AES-128 in CBC mode with PKCS#7 padding
 * **Key size**: 128 bits (16 bytes)
@@ -79,7 +79,7 @@ let ciphertext = cipher.encrypt_vec(plaintext);
 
 ---
 
-## 🔐 RSA Encryption (Asymmetric)
+##  RSA Encryption (Asymmetric)
 
 * **Key size**: 2048 bits
 * **Padding**: PKCS1v15
@@ -97,7 +97,7 @@ let decrypted = private_key.decrypt(padding, &ciphertext).unwrap();
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ```toml
 [dependencies]
@@ -112,7 +112,7 @@ base64 = "0.21"
 
 ---
 
-## 📚 Background Concepts
+##  Background Concepts
 
 ### AES
 
@@ -129,9 +129,4 @@ base64 = "0.21"
 * Decryption: $m = c^d \mod n$
 
 
-## 🧑‍💻 Author
 
-Ankita Singh
-GitHub: [@Annkkitaaa](https://github.com/Annkkitaaa)
-
----
